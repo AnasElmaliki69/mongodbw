@@ -1,11 +1,15 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
-To start the slide show:
+### **Suivi du Projet MongoDB - Gestion d'une Bibliothèque**  
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+1. **Installation des outils**  
+   - Téléchargé et installé **mongosh** et **MongoDB Compass**.  
 
-Edit the [slides.md](./slides.md) to see the changes.
+2. **Création de la base de données**  
+   - Créé la base de données **bibliotheque_amazon**.  
+   - Créé deux collections : **livres** et **utilisateurs**. 
+   ![Description of image](images)
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+
+3. **Importation des données**  
+   - Téléchargé le fichier CSV **books_data.csv**.  
+   - Utilisé `mongoimport` pour importer les données dans la collection **livres**.  

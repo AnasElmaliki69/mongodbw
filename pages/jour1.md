@@ -149,7 +149,7 @@ NoSQL signifie "Not Only SQL" - une famille de bases de données qui s'éloigne 
 - **Clé-valeur** : Redis, DynamoDB
 - **Colonne** : Cassandra, HBase
 - **Graphe** : Neo4j, OrientDB
-
+   
 </div>
 </div>
 
